@@ -19,6 +19,10 @@
         <button @click="evalSum" class="btn-eval">=</button>
         <button @click="clearSum" class="btn-clear">CLR</button>
       </div>
+      <div class="userlist">
+        <h1>User List</h1>
+        <li v-for="user of users">{{ user }}</li>
+      </div>
     </div>
     <script src="app.js"></script>
   </body>

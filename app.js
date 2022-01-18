@@ -19,6 +19,7 @@ const app = Vue.createApp({
         "/",
         ".",
       ],
+      users: ["Muneeb", "Yaseen", "Na-aim", "Nadeem", "Muhammad", "Kyle"],
     };
   },
   methods: {
